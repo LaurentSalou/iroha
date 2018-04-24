@@ -20,9 +20,7 @@ target_link_libraries(ametsuchi
     libs_common
     command_execution
     query_execution
-    boost
     model_interfaces
     shared_model_proto_backend
-    shared_model_proto_builders
     shared_model_stateless_validation
     )

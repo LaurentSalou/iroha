@@ -19,7 +19,6 @@ addtest(query_execution_test query_execution.cpp)
 target_link_libraries(query_execution_test
     query_execution
     shared_model_stateless_validation
-    shared_model_default_builders
     )
 
 addtest(chain_validation_test chain_validation_test.cpp)
