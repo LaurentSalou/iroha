@@ -103,7 +103,6 @@ namespace iroha {
     }
 
     void OrderingServiceImpl::updateTimer() {
-      //log_->warn("updateTimer called");
       std::lock_guard<std::mutex> lock(m_);
       if (is_finished_) {
         return;
